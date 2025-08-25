@@ -12,6 +12,24 @@ It is inspired by the Kaggle competition: *"Blue Book for Bulldozers"*.
 
 ---
 
+## 🚀 Getting Started  
+
+### 1. Clone the repository  
+git clone https://github.com/YR-raj/Bulldozer-Price-prediction-project.git
+cd Bulldozer-Price-prediction-project
+
+### 2. Create a virtual environment
+conda create --name bulldozer_env python=3.9 -y
+conda activate bulldozer_env
+
+### 3. Install dependencies
+conda env update --file environment.yml --prune
+
+### 4. Run the notebook
+jupyter notebook notebook.ipynb
+
+---
+
 ## ⚙️ Tech Stack
 - **Python**
 - **Pandas, NumPy** (Data processing)
@@ -45,6 +63,4 @@ It is inspired by the Kaggle competition: *"Blue Book for Bulldozers"*.
 
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.  
-
-
 
