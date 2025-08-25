@@ -16,16 +16,20 @@ It is inspired by the Kaggle competition: *"Blue Book for Bulldozers"*.
 
 ### 1. Clone the repository  
 git clone https://github.com/YR-raj/Bulldozer-Price-prediction-project.git
+
+### 2. Go to project folder
 cd Bulldozer-Price-prediction-project
 
-### 2. Create a virtual environment
+### 3. Create a virtual environment
 conda create --name bulldozer_env python=3.9 -y
+
+### 3. Activate environment
 conda activate bulldozer_env
 
-### 3. Install dependencies
+### 4. Install dependencies
 conda env update --file environment.yml --prune
 
-### 4. Run the notebook
+### 5. Run the notebook
 jupyter notebook notebook.ipynb
 
 ---
